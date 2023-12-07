@@ -58,7 +58,7 @@ void main()
     }
     else
     {
-        for(i=k;i<n;i++)
+        for(i=k;i<n-1;i++)
         {
             a[m]=p[i];
             m++;
