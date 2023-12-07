@@ -50,7 +50,7 @@ void main()
             a[m]=p[i];
             m++;
         }
-        for(i=k+1;i<n-1;i++)
+        for(i=k+1;i<n;i++)
         {
             a[m]=p[i];
             m++;
