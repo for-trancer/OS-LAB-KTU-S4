@@ -45,12 +45,12 @@ void main()
     printf("\n %d \n",k);
     if(cr<(199-cr))
     {
-        for(i=k;i>=0;i--)
+        for(i=k;i>0;i--)
         {
             a[m]=p[i];
             m++;
         }
-        for(i=k+1;i<n-1;i++)
+        for(i=n-1;i>k;i--)
         {
             a[m]=p[i];
             m++;
